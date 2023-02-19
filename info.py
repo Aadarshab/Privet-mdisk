@@ -64,13 +64,12 @@ LOG_STR += (f"MAX_LIST_ELM Found, long list will be shortened to first {MAX_LIST
 LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
 
 
-
 AUTO_DELETE_SECONDS = int(environ.get('AUTO_DELETE_SECONDS', 300))
 AUTO_DELETE = environ.get('AUTO_DELETE', True)
 if AUTO_DELETE == "True":
     AUTO_DELETE = True
 
 #Sample
-SHORTNER_SITE = ""
-SHORTNER_API = ""
+SHORTNER_SITE = "gplinks.in"
+SHORTNER_API = "b3aef31e1df1442456f96564356262ed84fbd5df"
 
